@@ -19,7 +19,7 @@ jobs:
         run: |
           Get-NetFirewallRule -Direction Inbound
 
-Jobs-Message-Actions-Mac:
+  Jobs-Message-Actions-Mac:
     runs-on: macos-latest
     steps:
       - name: Check out Current Repository
