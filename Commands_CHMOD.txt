@@ -1,0 +1,5 @@
+icacls.exe JavedS.pem /reset
+
+icacls.exe JavedS.pem /grant:r "$($env:username):(r)"
+
+icacls.exe JavedS.pem /inheritance:r

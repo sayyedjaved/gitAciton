@@ -12,8 +12,8 @@ jobs:
       - name: Copy files via scp actions
         uses: appleboy/scp-action@master
         with:
-          host: 172.18.0.8
-          username: node1
+          host: 13.233.244.64
+          username: ubuntu
           key_path: '/home/runner/work/gitAciton/gitAciton/JavedS.pem'
           port: 22
           source: "ubl.yml"
